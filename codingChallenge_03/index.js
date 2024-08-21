@@ -1,5 +1,5 @@
-var Dolphins = [98, 108, 89]
-var Koalas = [98, 108, 89]
+var Dolphins = [97, 112, 101]
+var Koalas = [109, 95, 106]
 var maenDolphins = Dolphins.reduce((acc, num) => acc + num) / Dolphins.length
 var meanKoalas = Koalas.reduce((acc, num) => acc + num) / Koalas.length
 console.log(`điểm trung bình của đội Dolphins là ${maenDolphins.toFixed(3)}`);
