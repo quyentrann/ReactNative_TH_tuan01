@@ -1,12 +1,4 @@
-var bill = [{
-    name: 'orange juice',
-    price: 100
-}, {
-    name: 'avocado smoothie',
-    price: 200
-}]
-var totalBill = bill.reduce((acc, num) => { return acc.price + num.price })
-console.log(totalBill);
-var tip = (totalBill >= 50 && totalBill <= 300) ? totalBill * 0.15 : totalBill * 0.2;
-console.table(bill)
-console.log(`=>Tổng hóa đơn là ${totalBill} \n Tiền tip là: ${tip}`);
+var bill = 430
+var tip 
+bill >=50 && bill<= 300 ? tip = bill * 0.15 : tip = bill*0.2
+console.log(`Hoa đơn : ${bill} , tiền boa : ${tip} và tổng giá trị ${bill+tip}`);
